@@ -1,0 +1,83 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(178, 214, 255);
+}
+
+#alvo {
+    width: 64px;
+    height: 64px;
+    background-image: url('/src/img/alvo.png');
+    position: absolute;
+    z-index: 99999;
+
+    display: none;
+}
+
+#arvore {
+    width: 465px;
+    height: 627px;
+    background-image: url('/src/img/arvore.png');
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+#mato {
+    width: 4000px;
+    height: 67px;
+    background-image: url('/src/img/mato.png');
+    position: absolute;
+    z-index: 10;
+
+    display: none;
+}
+
+#tiros {
+    margin-top: 54px;
+    margin-left: 54px;
+    font-size: 24px;
+    font-weight: bold;
+    font-display: initial;
+    font-family: sans-serif;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Padrão */
+}
+
+#cor {
+    transition: opacity 1s ease;
+}
+
+#cachorro {
+    width: 448px;
+    height: 608px;
+    position: absolute;
+}
+
+#modal, #modal-final {
+    background-color: rgb(178, 214, 255);
+    max-width: 500px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.modal-header, .modal-header-final {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: rgb(178, 214, 255);
+    cursor: pointer;
+}
+
+
+
+.modal-body, .modal-body-final {
+    background-color: rgb(178, 214, 255);
+}
